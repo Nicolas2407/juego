@@ -1,11 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villanos</title>
+  <link rel="stylesheet" href="villanos.css">
 </head>
+
 <body>
-    
+
+<div class="container">
+
+    <input type="radio" name="pj" id="p1" checked>
+    <input type="radio" name="pj" id="p2">
+    <input type="radio" name="pj" id="p3">
+    <input type="radio" name="pj" id="p4">
+
+    <div class="character-list">
+
+        <label for="p1" class="character-option">
+            <img src="esqueleto .png">
+            <span>Esqueleto</span>
+        </label>
+
+        <label for="p2" class="character-option">
+            <img src="duende.png">
+            <span>Duende</span>
+        </label>
+
+        <label for="p3" class="character-option">
+            <img src="nigromante.png">
+            <span>Nigromante</span>
+        </label>
+
+        <label for="p4" class="character-option">
+            <img src="orco.png">
+            <span>orco</span>
+        </label>
+    </div>
+
+    <!-- PANEL CENTRAL -->
+    <div class="selected-area">
+        <img id="img1" class="big-image" src="esqueleto .png">
+        <div id="name1" class="character-name">Esqueleto</div>
+
+        <img id="img2" class="big-image" src="duende.png">
+        <div id="name2" class="character-name">Duende</div>
+
+        <img id="img3" class="big-image" src="nigromante.png">
+        <div id="name3" class="character-name">Nigromante</div>
+
+        <img id="img4" class="big-image" src="orco.png">
+        <div id="name4" class="character-name">orco</div>
+    </div>
+
+    <!-- PANEL DE HABILIDADES -->
+    <div class="skills-panel">
+
+        <!-- Habilidades Guerrero -->
+        <div class="skill-box g-skill">
+            <div class="skill-title">Levantamiento de huesos</div>
+            Invoca 5 esqueletos en el transcurso de la batalla.
+        </div>
+        <div class="skill-box g-skill">
+            <div class="skill-title">Toque Espectral</div>
+            Un ataque cuerpo a cuerpo que no solo inflige daño físico sino que también aplica un efecto de Drenaje de Vida.
+        </div>
+
+        <!-- Habilidades Arquera -->
+        <div class="skill-box a-skill">
+            <div class="skill-title">Grito de Guerra</div>
+            mite un rugido que aumenta temporalmente el daño de todos los trasgos y duendes aliados cercanos.
+        </div>
+
+        <!-- Habilidades Mago -->
+        <div class="skill-box m-skill">
+            <div class="skill-title">Muro de Sombras</div>
+            Crea una barrera oscura de energía negativa en el campo de batalla. Esta barrera bloquea el movimiento y causa daño.
+        </div>
+
+        <!-- Habilidades Asesino -->
+        <div class="skill-box as-skill">
+            <div class="skill-title">Carga Indomable</div>
+            Carga hacia el jugador, derribando cualquier obstáculo en su camino. Si impacta al jugador, inflige un daño masivo y lo Aturde.
+        </div>
+        <div class="botones">
+    <button class="btn seleccionar">Seleccionar</button>
+    <a href="pagina principal .html" class="btn volver">Volver</a>
+</div>
+
+    </div>
+
+</div>
 </body>
+
 </html>

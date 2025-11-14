@@ -22,6 +22,12 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
 }
+.personaje-fondo {
+  position: relative; 
+  top: 200px;    
+  left: 500px; 
+  background-size: 150%;
+}
 
 
 .panel-izquierdo h3 {

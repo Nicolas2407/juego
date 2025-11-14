@@ -1,5 +1,5 @@
 body {
-    background: url("fondo\ heroes\ .png  ");
+    background: url("fondo\ villanos\ .png");
     background-size: cover;
     font-family: Georgia;
     color: #f2e7c9;
@@ -23,9 +23,9 @@ body {
 .character-option {
     display: flex;
     align-items: center;
-    background: rgba(70,45,30,0.8);
+    background: rgba(38, 14, 57, 0.8);
     padding: 10px;
-    border: 2px solid #d4b679;
+    border: 2px solid #000000;
     border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -41,7 +41,7 @@ body {
     height: 45px;
     border-radius: 50%;
     margin-right: 10px;
-    border: 2px solid #e2c373;
+    border: 2px solid #000000;
 }
 
 /* OCULTAR LOS RADIO */
@@ -61,7 +61,7 @@ input[type="radio"] {
 .big-image {
     width: 260px;
     height: 330px;
-    border: 4px solid #caa96b;
+    border: 4px solid #000000;
     border-radius: 10px;
     display: none;
 }
@@ -82,8 +82,8 @@ input[type="radio"] {
 }
 
 .skill-box {
-    background: rgba(80,55,35,0.8);
-    border: 2px solid #d4b679;
+    background: rgba(38, 14, 57, 0.8);
+    border: 2px solid #000000;
     border-radius: 10px;
     padding: 12px;
     margin-bottom: 15px;
@@ -108,8 +108,8 @@ input[type="radio"] {
     padding: 12px 30px;
     font-size: 22px;
     font-family: "Cinzel", serif;
-    background-color: #634b3b;
-    border: 4px solid #d1a765;
+    background-color: rgba(38, 14, 57, 0.8);
+    border: 4px solid #000000;
     color: #fbd9b0;
     border-radius: 12px;
     cursor: pointer;
@@ -119,24 +119,24 @@ input[type="radio"] {
 }
 
 .btn:hover {
-    background-color: #7a5b46;
+    background-color: rgba(38, 14, 57, 0.8);
     transform: scale(1.05);
 }
 
 .seleccionar {
-    background-color: #866046;
+    background-color: rgba(38, 14, 57, 0.8);
 }
 
 .seleccionar:hover {
-    background-color: #9b6f52;
+    background-color: rgba(38, 14, 57, 0.8);
 }
 
 .volver {
-    background-color: #4a3a32;
+    background-color: rgba(38, 14, 57, 0.8);
 }
 
 .volver:hover {
-    background-color: #645046;
+    background-color: rgba(38, 14, 57, 0.8);
 }
 
 
